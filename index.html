@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./Images/icon.jpg" />
+    <title>Tavarn || Home</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  </head>
+  <body>
+    <div class="preloader"></div>
+
+    <!--------------------Nav Section------------------------------->
+      <header>
+        <nav id="navBar">
+          <div class="logo">
+            <h1>
+              <img src="./Images/logo.jpeg" alt="Logo Image" class="logo-img" >
+            </h1>
+            <h5 class="logo-text">UI & UX<br>Designer</h5>
+          </div>
+
+          <div id="menuList">
+            <ul class="nav_list">
+              <li>
+                <a href="index.html" class="nav_links L1">home</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav_links L2">about</a>
+              </li>
+              <li>
+                <a href="project.html" class="nav_links L2">Projects</a>
+              </li>
+              <li>
+                <a
+                  href="work.html"
+                  id="ContactInfo"
+                  class="nav_links L3"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="Socials">
+            <a
+              href="https://www.instagram.com/tavarnh/"
+              target="_blank"
+              class="link"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCQ51UzCiyaskLa7fRiOnhnQ"
+              target="_blank"
+              class="link"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              href="https://www.twitch.tv/tavthedev"
+              target="_blank"
+              class="link"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <!--------------------Welcome Section------------------------------->
+      <main class="container projects-container">
+        <section id="welcome_page welcome">
+          <div class="area">
+            <video class="videoBack" autoplay loop muted preload="metadata">
+              <source src="./Videos/background.mp4" />
+            </video>
+            <div class="menu-container">
+              <div class="menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </div>
+            <div class="Tag">
+              <p class="bodyTag change-color">&lt;body&gt;</p>
+            </div>
+            <div class="content">
+              <div id="welcomeContent">
+                <p class="Tag change-color">&lt;h1&gt;</p>
+                <h1 id="welcomeHeader">
+                  <span class="this1">Hey,</span><br>
+                  <span class="this2">I'm Tavarn</span><br>
+                  <span class="text this3 important"></span>
+                </h1>
+                <script type="text/javascript">
+                  new Typed(".text", {
+                  strings: ["YouTuber.", "Developer.", "Freelancer.", "Designer.", "Gamer."],
+                  typeSpeed: 200,
+                  backSpeed: 50,
+                  loop: true,
+                  });
+                </script>
+                <p class="welcome-info change-color">Front End Developer & Designer</p>
+                <p class="Tag change-color">&lt;h1&gt;</p>
+                <a href="project.html">
+                  <button class="homeButton">PortFolio</button>
+                </a>
+              </div>
+
+              <div class="floatingRings">
+                <img src="./Images/ring.png" class="ring" alt="ring" />
+                <img src="./Images/ring.png" class="ring1" alt="ring" />
+              </div>
+              <div class="Tag">
+                <p class="p_Right change-color">&lt;body&gt;</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!----------------End About section------------------>
+        <nav id="navy">
+          <div class="logo">
+            <i class="fas fa-times" onclick="Close()"></i>
+            <h1>
+              <span class="anim">T</span>
+            </h1>
+            <p class="logo-text">UI & UX Designer</p>
+          </div>
+
+            <ul class="nav_list">
+              <li>
+                <a href="index.html" class="nav_links L1">home</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav_links L2">about</a>
+              </li>
+              <li>
+                <a href="project.html" class="nav_links L2">Projects</a>
+              </li>
+              <li>
+                <a href="work.html" class="nav_links L3">contact</a>
+              </li>
+            </ul>
+
+          <div class="Socials">
+            <a
+              href="https://www.instagram.com/tavarnh/"
+              target="_blank"
+              class="link"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCQ51UzCiyaskLa7fRiOnhnQ"
+              target="_blank"
+              class="link"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              href="https://www.twitch.tv/tavthedev"
+              target="_blank"
+              class="link"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </div>
+        </nav>
+      </main>
+              <!--    linking javascript files-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="./Javascript/app.js"></script>
+  <script type="text/javascript">
+    gsap.fromTo(".this1", {opacity: 0}, {duration: 1, opacity: 1, ease: Power2.easeInOut, delay: 3.1}, "-=1");
+    gsap.fromTo(".this2", {opacity: 0}, {duration: 1, opacity: 1, ease: Power2.easeInOut, delay: 3.4});
+    gsap.fromTo(".this3", {opacity: 0}, {duration: 1, opacity: 1, ease: Power2.easeInOut, delay: 3.8});
+    gsap.fromTo(".welcome-info", {y: 10, opacity: 0}, {y: 0, duration: 1.3, opacity: 1, delay: 4.5, stagger: .1, ease: Power2.easeInOut});
+  </script>
+  </body>
+</html>

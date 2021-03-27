@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "lightbox2": "^2.11.3"
+  }
+}
